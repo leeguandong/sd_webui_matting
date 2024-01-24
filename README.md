@@ -1,2 +1,14 @@
-# sd_webui_matting
-matting extension performs stable diffusion human or e_commence graph matting on a browser UI.
+# Mattiing
+
+Extension for [webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui). 
+
+![](preview.png)
+
+Find the UI for Matting in the Extras tab after installing the extension.
+
+# Installation
+
+Install from webui's Extensions tab.
+
+# Result comparsion
+#
