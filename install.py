@@ -30,6 +30,12 @@ if not launch.is_installed("modelscope"):
     except Exception:
         print("Can't install modelscope. Please follow the readme to install manually")
 
+if not launch.is_installed("tensorflow"):
+    try:
+        launch.run_pip("install tensorflow", "requirements for tensorflow")
+    except Exception:
+        print("Can't install tensorflow. Please follow the readme to install manually")
+
 if not launch.is_installed("transparent-background"):
     try:
         launch.run_pip("install transparent-background", "requirements for transparent-background")
@@ -47,6 +53,24 @@ if not launch.is_installed("pims"):
         launch.run_pip("install pims", "requirements for pims")
     except Exception:
         print("Can't install pims. Please follow the readme to install manually")
+
+if not launch.is_installed("onnxruntime_gpu"):
+    try:
+        launch.run_pip("install onnxruntime_gpu", "requirements for onnxruntime_gpu")
+    except Exception:
+        print("Can't install onnxruntime_gpu. Please follow the readme to install manually")
+
+if not launch.is_installed("pooch"):
+    try:
+        launch.run_pip("install pooch", "requirements for pooch")
+    except Exception:
+        print("Can't install pooch. Please follow the readme to install manually")
+
+if not launch.is_installed("pymatting"):
+    try:
+        launch.run_pip("install pymatting", "requirements for pymatting")
+    except Exception:
+        print("Can't install pymatting. Please follow the readme to install manually")
 
 # if not launch.is_installed("mmcv"):
 #     try:

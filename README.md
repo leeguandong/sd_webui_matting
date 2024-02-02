@@ -11,4 +11,4 @@ Find the UI for Matting in the Extras tab after installing the extension.
 Install from webui's Extensions tab.
 
 # Result comparsion
-#
+
